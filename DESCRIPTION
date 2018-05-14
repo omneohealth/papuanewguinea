@@ -9,7 +9,10 @@ Authors@R: c(
     person("Scholastica", "Zakayo", role = "aut"),
     person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
            email = "ernestgmd@gmail.com", role = c("aut", "cre")))
-Description: Oxford Maternal and Neonatal Health (OMNeoHealth) 
+Description: Oxford Maternal and Neonatal Health (OMNeoHealth) aims to synthesise
+    health data and identify gaps in assessing the current state of maternal and 
+    child health in Papua New Guinea. This package contains datasets that have
+    been collected for this purpose.
 License: AGPL-3
 Depends: R (>= 2.10)
 Suggests: tm,
