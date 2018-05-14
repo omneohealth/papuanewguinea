@@ -1,6 +1,6 @@
 ################################################################################
 #
-#' png
+#' papuanewguinea
 #'
 #' OMNeoHealth Datasets for Papua New Guinea
 #'
@@ -8,7 +8,7 @@
 #' Neonatal Health project in Papua New Guinea.
 #'
 #' @docType package
-#' @name png
+#' @name papuanewguinea
 #'
 #
 ################################################################################
