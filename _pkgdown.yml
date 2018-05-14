@@ -2,7 +2,7 @@ title: papuanewguinea
 url: https://validmeasures.org/papuanewguinea
 template:
   params:
-    bootswatch: darkly
+    bootswatch: sandstone
     #ganalytics: UA-102485058-4
 #navbar:
-#  type: standard
+#  type: inverse
