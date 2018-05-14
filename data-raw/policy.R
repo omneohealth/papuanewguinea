@@ -124,6 +124,24 @@ for(i in 1:length(x)) {
 devtools::use_data(newborn_health_policy_2014, overwrite = TRUE)
 
 
+################################################################################
+#
+# Papua New Guinea Vision 2015
+#
+################################################################################
+
+x <- pdf_text(pdf = "data-raw/policy/Papua New Guinea Vision 2015_2011.pdf")
+x <- str_split(x, pattern = "\n")
+
+png_vision_2015 <- NULL
+
+for(i in 1:length(x)) {
+  temp <- x[[i]]
+  png_vision_2015 <- c(png_vision_2015, temp)
+}
+
+devtools::use_data(png_vision_2015, overwrite = TRUE)
+
 
 
 
