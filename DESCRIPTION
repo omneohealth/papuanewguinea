@@ -1,4 +1,4 @@
-Package: pngdata
+Package: papuanewguinea
 Type: Package
 Title: OMNeoHealth Datasets for Papua New Guinea
 Version: 0.1.0
@@ -9,8 +9,7 @@ Authors@R: c(
     person("Scholastica", "Zakayo", role = "aut"),
     person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
            email = "ernestgmd@gmail.com", role = c("aut", "cre")))
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Oxford Maternal and Neonatal Health (OMNeoHealth) 
 License: AGPL-3
 Depends: R (>= 2.10)
 Suggests: tm,
