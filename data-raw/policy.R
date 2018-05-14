@@ -76,9 +76,20 @@ devtools::use_data(taskforce_maternal_health_2009, overwrite = TRUE)
 x <- pdf_text(pdf = "data-raw/policy/National Youth and Adolescents Health Policy 2014.pdf")
 x <- str_split(x, pattern = "\n")
 
+youth_adolescents_health_policy_2014 <- NULL
 
-rpdf <- tm::readPDF(control = list(text = "-layout"))
+for(i in 1:length(x)) {
+  temp <- x[[i]]
+  youth_adolescents_health_policy_2014 <- c(youth_adolescents_health_policy_2014, temp)
+}
 
-xx <- tm::Corpus(tm::URISource("data-raw/policy/National Youth and Adolescents Health Policy 2014.pdf"),
-                 readerControl = list(reader = rpdf))
+devtools::use_data(youth_adolescents_health_policy_2014, overwrite = TRUE)
+
+
+
+x <- pdf_text(pdf = "data-raw/policy/Newborn Health Policy_2014.pdf")
+x <- str_split(x, pattern = "\n")
+
+
+
 
