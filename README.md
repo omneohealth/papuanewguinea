@@ -1,6 +1,5 @@
 # papuanewguinea: OMNeoHealth Datasets for Papua New Guinea
 
-
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![CRAN](https://img.shields.io/cran/v/papuanewguinea.svg)](https://cran.r-project.org/package=papuanewguinea)
 [![CRAN](https://img.shields.io/cran/l/papuanewguinea.svg)](https://CRAN.R-project.org/package=papuanewguinea)
