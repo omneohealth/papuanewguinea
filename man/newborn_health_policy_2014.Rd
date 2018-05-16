@@ -4,7 +4,11 @@
 \name{newborn_health_policy_2014}
 \alias{newborn_health_policy_2014}
 \title{newborn_health_policy_2014}
-\format{A character vector with 1331 elements}
+\format{A dataframe with 1331 rows and 2 columns
+\describe{
+\item{\code{line}}{Line number}
+\item{\code{text}}{Character string of about 70 characters each}
+}}
 \usage{
 newborn_health_policy_2014
 }

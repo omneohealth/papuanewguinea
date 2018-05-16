@@ -4,7 +4,11 @@
 \name{png_vision_2015}
 \alias{png_vision_2015}
 \title{png_vision_2015}
-\format{A character vector with 2819 elements}
+\format{A dataframe with 2819 rows and 2 columns:
+\describe{
+\item{\code{line}}{Line number}
+\item{\code{text}}{Character string of about 70 characters each}
+}}
 \usage{
 png_vision_2015
 }

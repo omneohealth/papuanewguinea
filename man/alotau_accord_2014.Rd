@@ -4,7 +4,11 @@
 \name{alotau_accord_2014}
 \alias{alotau_accord_2014}
 \title{alotau_accord_2014}
-\format{A character vector with 477 elements}
+\format{A dataframe with 477 rows and 2 columns:
+\describe{
+\item{\code{line}}{Line number}
+\item{\code{text}}{Character string of about 70 characters each}
+}}
 \source{
 \url{https://srhr.org/abortion-policies/documents/countries/05-PNG-Policy-on-Free-Primary-Health-Care-an-Subsidized-Specialized-Health-Services-in-PNG-Department-of-Health-2013.pdf}
 }

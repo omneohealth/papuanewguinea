@@ -4,7 +4,11 @@
 \name{national_sexual_reproductive_policy}
 \alias{national_sexual_reproductive_policy}
 \title{national_sexual_reproductive_policy}
-\format{A character vector with 712 elements}
+\format{A dataframe with 712 rows and 2 elements
+\describe{
+\item{\code{line}}{Line number}
+\item{\code{text}}{Character string of about 70 characters each}
+}}
 \usage{
 national_sexual_reproductive_policy
 }
