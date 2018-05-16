@@ -21,6 +21,7 @@ addons:
       - qpdf
       - texinfo
       - libmagickcore-dev
+      - libmagickwand-dev
       - libmagick++-dev
       - libssh2-1-dev
       - gfortran
