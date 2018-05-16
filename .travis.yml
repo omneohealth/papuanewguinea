@@ -6,25 +6,7 @@ addons:
   apt:
     update: true
     packages:
-      - gcc
-      - g++
-      - libblas-dev
-      - liblapack-dev
-      - libncurses5-dev
-      - libreadline-dev
-      - libjpeg-dev
-      - libpng-dev
-      - zlib1g-dev
-      - libbz2-dev
-      - liblzma-dev
-      - cdbs
-      - qpdf
-      - texinfo
-      - libmagickcore-dev
-      - libmagickwand-dev
       - libmagick++-dev
-      - libssh2-1-dev
-      - gfortran
 
 env:
   -_R_CHECK_FORCE_SUGGESTS_=false
