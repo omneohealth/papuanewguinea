@@ -7,6 +7,9 @@
 library(pdftools)
 library(tm)
 library(stringr)
+library(tidytext)
+library(dplyr)
+
 
 ################################################################################
 #
@@ -24,7 +27,11 @@ for(i in 1:length(x)) {
   alotau_accord_2014 <- c(alotau_accord_2014, temp)
 }
 
+alotau_accord_2014 <- data_frame(line = 1:length(alotau_accord_2014), text = alotau_accord_2014)
+
 devtools::use_data(alotau_accord_2014, overwrite = TRUE)
+
+
 
 
 ################################################################################
