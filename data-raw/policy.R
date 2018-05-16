@@ -27,7 +27,8 @@ for(i in 1:length(x)) {
   alotau_accord_2014 <- c(alotau_accord_2014, temp)
 }
 
-alotau_accord_2014 <- data_frame(line = 1:length(alotau_accord_2014), text = alotau_accord_2014)
+alotau_accord_2014 <- data_frame(line = 1:length(alotau_accord_2014),
+                                 text = alotau_accord_2014)
 
 devtools::use_data(alotau_accord_2014, overwrite = TRUE)
 
@@ -50,7 +51,8 @@ for(i in 1:length(x)) {
   health_sector_gender_policy_2014 <- c(health_sector_gender_policy_2014, temp)
 }
 
-health_sector_gender_policy_2014 <- data_frame(line = 1:length(health_sector_gender_policy_2014), text = health_sector_gender_policy_2014)
+health_sector_gender_policy_2014 <- data_frame(line = 1:length(health_sector_gender_policy_2014),
+                                               text = health_sector_gender_policy_2014)
 
 devtools::use_data(alotau_accord_2014, overwrite = TRUE)
 
@@ -71,7 +73,8 @@ for(i in 1:length(x)) {
   taskforce_maternal_health_2009 <- c(taskforce_maternal_health_2009, temp)
 }
 
-taskforce_maternal_health_2009 <- data_frame(line = 1:length(taskforce_maternal_health_2009), text = health_sector_gender_policy_2014)
+taskforce_maternal_health_2009 <- data_frame(line = 1:length(taskforce_maternal_health_2009),
+                                             text = health_sector_gender_policy_2014)
 
 devtools::use_data(taskforce_maternal_health_2009, overwrite = TRUE)
 
@@ -92,7 +95,8 @@ for(i in 1:length(x)) {
   national_sexual_reproductive_policy <- c(national_sexual_reproductive_policy, temp)
 }
 
-national_sexual_reproductive_policy <- data_frame(line = 1:length(national_sexual_reproductive_policy), text = national_sexual_reproductive_policy)
+national_sexual_reproductive_policy <- data_frame(line = 1:length(national_sexual_reproductive_policy),
+                                                  text = national_sexual_reproductive_policy)
 
 devtools::use_data(national_sexual_reproductive_policy, overwrite = TRUE)
 
@@ -113,7 +117,8 @@ for(i in 1:length(x)) {
   youth_adolescents_health_policy_2014 <- c(youth_adolescents_health_policy_2014, temp)
 }
 
-youth_adolescents_health_policy_2014 <- data_frame(line = 1:length(youth_adolescents_health_policy_2014), text = youth_adolescents_health_policy_2014)
+youth_adolescents_health_policy_2014 <- data_frame(line = 1:length(youth_adolescents_health_policy_2014),
+                                                   text = youth_adolescents_health_policy_2014)
 
 devtools::use_data(youth_adolescents_health_policy_2014, overwrite = TRUE)
 
@@ -134,7 +139,8 @@ for(i in 1:length(x)) {
   newborn_health_policy_2014 <- c(newborn_health_policy_2014, temp)
 }
 
-newborn_health_policy_2014 <- data_frame(line = 1:length(newborn_health_policy_2014), text = newborn_health_policy_2014)
+newborn_health_policy_2014 <- data_frame(line = 1:length(newborn_health_policy_2014),
+                                         text = newborn_health_policy_2014)
 
 devtools::use_data(newborn_health_policy_2014, overwrite = TRUE)
 
@@ -155,7 +161,8 @@ for(i in 1:length(x)) {
   png_vision_2015 <- c(png_vision_2015, temp)
 }
 
-png_vision_2015 <- data_frame(line = 1:length(png_vision_2015), text = png_vision_2015)
+png_vision_2015 <- data_frame(line = 1:length(png_vision_2015),
+                              text = png_vision_2015)
 
 devtools::use_data(png_vision_2015, overwrite = TRUE)
 
