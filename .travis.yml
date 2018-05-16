@@ -2,6 +2,11 @@
 
 language: R
 
+addons:
+  apt:
+    packages:
+      - libmagickcore-dev
+
 env:
   -_R_CHECK_FORCE_SUGGESTS_=false
 
