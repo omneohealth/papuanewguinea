@@ -54,7 +54,7 @@ for(i in 1:length(x)) {
 health_sector_gender_policy_2014 <- data_frame(line = 1:length(health_sector_gender_policy_2014),
                                                text = health_sector_gender_policy_2014)
 
-devtools::use_data(alotau_accord_2014, overwrite = TRUE)
+devtools::use_data(health_sector_gender_policy_2014, overwrite = TRUE)
 
 
 ################################################################################
@@ -74,7 +74,7 @@ for(i in 1:length(x)) {
 }
 
 taskforce_maternal_health_2009 <- data_frame(line = 1:length(taskforce_maternal_health_2009),
-                                             text = health_sector_gender_policy_2014)
+                                             text = taskforce_maternal_health_2009)
 
 devtools::use_data(taskforce_maternal_health_2009, overwrite = TRUE)
 
