@@ -26,7 +26,11 @@ NULL
 #' divided into elements of up to about 70 characters each. Some elements are
 #' blank.
 #'
-#' @format A character vector with 477 elements
+#' @format A dataframe with 477 rows and 2 columns:
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
 #'
 #' @source \url{https://srhr.org/abortion-policies/documents/countries/05-PNG-Policy-on-Free-Primary-Health-Care-an-Subsidized-Specialized-Health-Services-in-PNG-Department-of-Health-2013.pdf}
 #'
@@ -46,7 +50,11 @@ NULL
 #' Policy 2014. The UTF-8 plain text is divided into elements of up to about 70
 #' characters each. Some elements are blank.
 #'
-#' @format A character vector with 698 elements
+#' @format A dataframe with 698 elements and 2 columns:
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
 #'
 #'
 #
@@ -64,8 +72,11 @@ NULL
 #' Policy. The UTF-8 plain text is divided into elements of up to about 70
 #' characters each. Some elements are blank.
 #'
-#' @format A character vector with 712 elements
-#'
+#' @format A dataframe with 712 rows and 2 elements
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
 #'
 #
 ################################################################################
@@ -82,7 +93,11 @@ NULL
 #' 2014. The UTF-8 plain text is divided into elements of up to about 70
 #' characters each. Some elements are blank.
 #'
-#' @format A character vector with 1331 elements
+#' @format A dataframe with 1331 rows and 2 columns
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
 #'
 #'
 #
@@ -100,7 +115,11 @@ NULL
 #' plain text is divided into elements of up to about 70 characters each. Some
 #' elements are blank.
 #'
-#' @format A character vector with 2819 elements
+#' @format A dataframe with 2819 rows and 2 columns:
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
 #'
 #'
 #
@@ -118,9 +137,35 @@ NULL
 #' Papua New Guinea. The UTF-8 plain text is divided into elements of up to about
 #' 70 characters each. Some elements are blank.
 #'
-#' @format A character vector with 3178 elements
+#' @format A dataframe with 3178 rows and 2 columns:
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
 #'
 #'
 #
 ################################################################################
 "taskforce_maternal_health_2009"
+
+
+################################################################################
+#
+#' youth_adolescents_health_policy_2014.rda
+#'
+#' National Youth and Adolescents Health Policy 2014
+#'
+#' A dataset containing the text of National Youth and Adolescents Health Policy
+#' 2014. The UTF-8 plain text is divided into elements of up to about
+#' 70 characters each. Some elements are blank.
+#'
+#' @format A dataframe with 2 columns and 1128 rows:
+#' \describe{
+#' \item{\code{line}}{Line number}
+#' \item{\code{text}}{Character string of about 70 characters each}
+#' }
+#'
+#'
+#
+################################################################################
+"youth_adolescents_health_policy_2014"
