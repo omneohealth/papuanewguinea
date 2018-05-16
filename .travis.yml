@@ -20,6 +20,7 @@ addons:
       - cdbs
       - qpdf
       - texinfo
+      - libmagickcore-dev
       - libmagick++-dev
       - libssh2-1-dev
       - gfortran
