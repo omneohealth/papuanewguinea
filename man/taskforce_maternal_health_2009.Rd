@@ -6,7 +6,7 @@
 \title{taskforce_maternal_health_2009}
 \format{A dataframe with 3178 rows and 2 columns:
 \describe{
-\item{\code{line}}{Line number}
+\item{\code{linenumber}}{Line number}
 \item{\code{text}}{Character string of about 70 characters each}
 }}
 \usage{

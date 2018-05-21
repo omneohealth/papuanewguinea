@@ -6,7 +6,7 @@
 \title{youth_adolescents_health_policy_2014.rda}
 \format{A dataframe with 2 columns and 1128 rows:
 \describe{
-\item{\code{line}}{Line number}
+\item{\code{linenumber}}{Line number}
 \item{\code{text}}{Character string of about 70 characters each}
 }}
 \usage{

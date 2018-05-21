@@ -6,7 +6,7 @@
 \title{png_vision_2015}
 \format{A dataframe with 2819 rows and 2 columns:
 \describe{
-\item{\code{line}}{Line number}
+\item{\code{linenumber}}{Line number}
 \item{\code{text}}{Character string of about 70 characters each}
 }}
 \usage{
