@@ -1,6 +1,6 @@
 ################################################################################
 #
-# Load libraries to use for data extraction from PDF lookup tables from PPI
+# Load libraries to use for data extraction from PDF policy documents of PNG
 #
 ################################################################################
 
