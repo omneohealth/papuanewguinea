@@ -64,7 +64,7 @@ for(i in 1:length(x)) {
   health_sector_gender_policy_2014 <- c(health_sector_gender_policy_2014, temp)
 }
 
-health_sector_gender_policy_2014 <- data_frame(line = 1:length(health_sector_gender_policy_2014),
+health_sector_gender_policy_2014 <- data_frame(linenumber = 1:length(health_sector_gender_policy_2014),
                                                text = health_sector_gender_policy_2014)
 
 devtools::use_data(health_sector_gender_policy_2014, overwrite = TRUE)
