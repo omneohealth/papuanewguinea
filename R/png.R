@@ -28,7 +28,7 @@ NULL
 #'
 #' @format A dataframe with 477 rows and 2 columns:
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
@@ -52,7 +52,7 @@ NULL
 #'
 #' @format A dataframe with 698 elements and 2 columns:
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
@@ -74,7 +74,7 @@ NULL
 #'
 #' @format A dataframe with 712 rows and 2 elements
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
@@ -95,7 +95,7 @@ NULL
 #'
 #' @format A dataframe with 1331 rows and 2 columns
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
@@ -117,7 +117,7 @@ NULL
 #'
 #' @format A dataframe with 2819 rows and 2 columns:
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
@@ -139,7 +139,7 @@ NULL
 #'
 #' @format A dataframe with 3178 rows and 2 columns:
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
@@ -161,7 +161,7 @@ NULL
 #'
 #' @format A dataframe with 2 columns and 1128 rows:
 #' \describe{
-#' \item{\code{line}}{Line number}
+#' \item{\code{linenumber}}{Line number}
 #' \item{\code{text}}{Character string of about 70 characters each}
 #' }
 #'
