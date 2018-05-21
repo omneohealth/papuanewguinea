@@ -174,7 +174,7 @@ for(i in 1:length(x)) {
   png_vision_2015 <- c(png_vision_2015, temp)
 }
 
-png_vision_2015 <- data_frame(line = 1:length(png_vision_2015),
+png_vision_2015 <- data_frame(linenumber = 1:length(png_vision_2015),
                               text = png_vision_2015)
 
 devtools::use_data(png_vision_2015, overwrite = TRUE)
