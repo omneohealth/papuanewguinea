@@ -26,8 +26,21 @@ for(i in 1:length(x)) {
   temp <- x[[i]]
   alotau_accord_2014 <- c(alotau_accord_2014, temp)
 }
+#
+# Clean-up
+#
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")]
 
-alotau_accord_2014 <- data_frame(line = 1:length(alotau_accord_2014),
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][7]  <- "WHAT ARE FACILITY LEVELS?"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][8]  <- "ACTION PLAN 1 - GOVERNMENT RUN HEALTH SERVICES AT FACILITY"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][10] <- "WHAT ARE THE OBJECTIVES OF ACTION PLAN 2?"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][11] <- "WHO IS RESPONSIBLE FOR ACTION PLAN TWO?"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][12] <- "PHASE TWO - CHURCH HEALTH SERVICES AT FACILITY LEVELS FOUR TO SIX"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][13] <- "DELAYS IN REPLENISHING REVENUE LOST FROM USER FEES AT FACILITY"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][14] <- "STAFFING"
+alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][15] <- "DISRUPTION OF REFERRAL PATTERNS"
+
+alotau_accord_2014 <- data_frame(linenumber = 1:length(alotau_accord_2014),
                                  text = alotau_accord_2014)
 
 devtools::use_data(alotau_accord_2014, overwrite = TRUE)
