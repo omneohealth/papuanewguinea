@@ -274,6 +274,7 @@ NULL
 #' \item{\code{Dis_Pcode}}{District code}
 #' \item{\code{District_Name}}{District name}
 #' \item{\code{Prov_Pcode}}{Province code}
+#' \item{\code{Prov_name}}{Province name}
 #' \item{\code{X}}{Longitude coordinate of health facility}
 #' \item{\code{Y}}{Latitude coordinate of health facility}
 #' \item{\code{Source}}{Source of data}
