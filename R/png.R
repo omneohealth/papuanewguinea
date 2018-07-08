@@ -151,7 +151,7 @@ NULL
 
 ################################################################################
 #
-#' youth_adolescents_health_policy_2014.rda
+#' youth_adolescents_health_policy_2014
 #'
 #' National Youth and Adolescents Health Policy 2014
 #'
@@ -169,3 +169,91 @@ NULL
 #
 ################################################################################
 "youth_adolescents_health_policy_2014"
+
+
+################################################################################
+#
+#' country
+#'
+#' Papua New Guinea Country Borders
+#'
+#' @format A SpatialPolygonsDataFrame with 1 feature with 2 variables:
+#' \describe{
+#' \item{\code{ADM0_EN}}{Country Name; Papua New Guinea}
+#' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
+#' }
+#'
+#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#'
+#
+################################################################################
+"country"
+
+
+################################################################################
+#
+#' province
+#'
+#' Papua New Guinea Province Borders
+#'
+#' @format A SpatialPolygonsDataFrame with 22 features each with 4 variables:
+#' \describe{
+#' \item{\code{ADM1_EN}}{Province Name}
+#' \item{\code{ADM1_PCODE}}{Two character province code}
+#' \item{\code{ADM0_EN}}{Country Name; Papura New Guinea}
+#' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
+#' }
+#'
+#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#'
+#
+################################################################################
+"province"
+
+
+################################################################################
+#
+#' district
+#'
+#' Papua New Guinea District Borders
+#'
+#' @format A SpatialPolygonsDataFrame with 87 features each with 6 variables:
+#' \describe{
+#' \item{\code{ADM2_EN}}{District Name}
+#' \item{\code{ADM2_PCODE}}{Four character district code}
+#' \item{\code{ADM1_EN}}{Province Name}
+#' \item{\code{ADM1_PCODE}}{Two character province code}
+#' \item{\code{ADM0_EN}}{Country Name; Papura New Guinea}
+#' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
+#' }
+#'
+#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#'
+#
+################################################################################
+"district"
+
+
+################################################################################
+#
+#' llg
+#'
+#' Papua New Guinea Local Level Government Borders
+#'
+#' @format A SpatialPolygonsDataFrame with 326 features each with 8 variables:
+#' \describe{
+#' \item{\code{ADM3_EN}}{Local level government Name}
+#' \item{\code{ADM3_PCODE}}{Six character local level government code}
+#' \item{\code{ADM2_EN}}{District Name}
+#' \item{\code{ADM2_PCODE}}{Four character district code}
+#' \item{\code{ADM1_EN}}{Province Name}
+#' \item{\code{ADM1_PCODE}}{Two character province code}
+#' \item{\code{ADM0_EN}}{Country Name; Papura New Guinea}
+#' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
+#' }
+#'
+#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#'
+#
+################################################################################
+"llg"
