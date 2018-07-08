@@ -3,6 +3,7 @@ library(rgdal)
 library(rgeos)
 library(raster)
 library(stringr)
+library(readxl)
 
 #
 #
@@ -48,3 +49,8 @@ llg$ADM3_PCODE <- str_replace(string = llg$ADM3_PCODE,
                               replacement = "")
 
 devtools::use_data(llg, overwrite = TRUE)
+
+
+healthfacility <- read_xlsx("data-raw/png_health_facilities_geocoded.xlsx")
+
+devtools::use_data(healthfacility, overwrite = TRUE)
