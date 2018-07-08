@@ -3,7 +3,7 @@
 \docType{data}
 \name{youth_adolescents_health_policy_2014}
 \alias{youth_adolescents_health_policy_2014}
-\title{youth_adolescents_health_policy_2014.rda}
+\title{youth_adolescents_health_policy_2014}
 \format{A dataframe with 2 columns and 1128 rows:
 \describe{
 \item{\code{linenumber}}{Line number}
