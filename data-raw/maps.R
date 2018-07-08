@@ -53,4 +53,8 @@ devtools::use_data(llg, overwrite = TRUE)
 
 healthfacility <- read_xlsx("data-raw/png_health_facilities_geocoded.xlsx")
 
+healthfacility$LLG_Pcode <- str_replace(string = healthfacility$LLG_Pcode, pattern = "PG", replacement = "")
+healthfacility$Dis_Pcode <- str_replace(string = healthfacility$Dis_Pcode , pattern = "PG", replacement = "")
+healthfacility$Prov_Pcode <- str_replace(string = healthfacility$Prov_Pcode, pattern = "PG", replacement = "")
+
 devtools::use_data(healthfacility, overwrite = TRUE)
