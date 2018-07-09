@@ -183,7 +183,7 @@ NULL
 #' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
 #' }
 #'
-#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries}
 #'
 #
 ################################################################################
@@ -204,7 +204,7 @@ NULL
 #' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
 #' }
 #'
-#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries}
 #'
 #
 ################################################################################
@@ -227,7 +227,7 @@ NULL
 #' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
 #' }
 #'
-#'@source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries}
 #'
 #
 ################################################################################
@@ -252,7 +252,7 @@ NULL
 #' \item{\code{ADM0_PCODE}}{Two-character country code; PG}
 #' }
 #'
-#' @source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries}
 #'
 #
 ################################################################################
@@ -281,8 +281,98 @@ NULL
 #' \item{\code{Feature}}{Features}
 #' }
 #'
-#' @source Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-health-facilities}
 #'
 #
 ################################################################################
 "healthfacility"
+
+
+################################################################################
+#
+#' pop_adm1
+#'
+#' Population data for provinces of Papua New Guinea
+#'
+#' @format A data frame with 22 rows and 11 columns:
+#' \describe{
+#' \item{\code{ADM1_EN}}{Province name}
+#' \item{\code{ADM1_PCODE}}{Province code}
+#' \item{\code{ADM0_EN}}{Country name; Papua New Guinea}
+#' \item{\code{ADM0_PCODE}}{Country code; PG}
+#' \item{\code{WARDS}}{Number of wards}
+#' \item{\code{UNITS}}{Number of units}
+#' \item{\code{HOUSEHOLDS}}{Total number of households}
+#' \item{\code{PERSONS}}{Total number of persons}
+#' \item{\code{MALES}}{Total number of males}
+#' \item{\code{FEMALES}}{Total number of females}
+#' \item{\code{WRA}}{Total women of reproductive age (estimated at 52.4\% of total number of females)}
+#' }
+#'
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-administrative-level-0-1-2-and-3-population-statistics}
+#'
+#
+################################################################################
+"pop_adm1"
+
+
+################################################################################
+#
+#' pop_adm2
+#'
+#' Population data for districts of Papua New Guinea
+#'
+#' @format A data frame with 87 rows and 13 columns:
+#' \describe{
+#' \item{\code{ADM2_EN}}{District name}
+#' \item{\code{ADM2_PCODE}}{District code}
+#' \item{\code{ADM1_EN}}{Province name}
+#' \item{\code{ADM1_PCODE}}{Province code}
+#' \item{\code{ADM0_EN}}{Country name; Papua New Guinea}
+#' \item{\code{ADM0_PCODE}}{Country code; PG}
+#' \item{\code{WARDS}}{Number of wards}
+#' \item{\code{UNITS}}{Number of units}
+#' \item{\code{HOUSEHOLDS}}{Total number of households}
+#' \item{\code{PERSONS}}{Total number of persons}
+#' \item{\code{MALES}}{Total number of males}
+#' \item{\code{FEMALES}}{Total number of females}
+#' \item{\code{WRA}}{Total women of reproductive age (estimated at 52.4\% of total number of females)}
+#' }
+#'
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-administrative-level-0-1-2-and-3-population-statistics}
+#'
+#
+################################################################################
+"pop_adm2"
+
+
+################################################################################
+#
+#' pop_adm3
+#'
+#' Population data for local level governments of Papua New Guinea
+#'
+#' @format A data frame with 326 rows and 15 columns:
+#' \describe{
+#' \item{\code{ADM3_EN}}{Local level government name}
+#' \item{\code{ADM3_PCODE}}{Local level government code}
+#' \item{\code{ADM2_EN}}{District name}
+#' \item{\code{ADM2_PCODE}}{District code}
+#' \item{\code{ADM1_EN}}{Province name}
+#' \item{\code{ADM1_PCODE}}{Province code}
+#' \item{\code{ADM0_EN}}{Country name; Papua New Guinea}
+#' \item{\code{ADM0_PCODE}}{Country code; PG}
+#' \item{\code{WARDS}}{Number of wards}
+#' \item{\code{UNITS}}{Number of units}
+#' \item{\code{HOUSEHOLDS}}{Total number of households}
+#' \item{\code{PERSONS}}{Total number of persons}
+#' \item{\code{MALES}}{Total number of males}
+#' \item{\code{FEMALES}}{Total number of females}
+#' \item{\code{WRA}}{Total women of reproductive age (estimated at 52.4\% of total number of females)}
+#' }
+#'
+#' @source \href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-administrative-level-0-1-2-and-3-population-statistics}
+#'
+#
+################################################################################
+"pop_adm3"
