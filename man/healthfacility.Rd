@@ -20,7 +20,7 @@
 \item{\code{Feature}}{Features}
 }}
 \source{
-Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+\href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-health-facilities}
 }
 \usage{
 healthfacility

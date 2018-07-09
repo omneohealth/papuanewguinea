@@ -16,7 +16,7 @@
 \item{\code{ADM0_PCODE}}{Two-character country code; PG}
 }}
 \source{
-Humanitarian Data Exchange (https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries)
+\href{Humanitarian Data Exchange}{https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries}
 }
 \usage{
 llg
