@@ -15,9 +15,13 @@ Description: Oxford Maternal and Neonatal Health (OMNeoHealth) aims to synthesis
     been collected for this purpose.
 License: AGPL-3
 Depends: R (>= 2.10)
+Imports: maptools,
+    rgdal,
+    rgeos
 Suggests: tm,
     pdftools,
-    stringr
+    stringr,
+    raster
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
