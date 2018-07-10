@@ -2,15 +2,29 @@
 
 language: R
 
+warnings_are_errors: true
+sudo: false
+cache: packages
+
+before_install:
+  - sudo add-apt-repository ppa:ubuntugis/ppa -y
+  - sudo apt-get update -q
+  - sudo apt-get install gdal-bin -y
+  - sudo apt-get -y install python-gdal -y
+
 addons:
   apt:
     update: true
     packages:
       - libmagick++-dev
+      - libgdal-dev
+      - libproj-dev
+
+r_github_packages:
+  - r-lib/covr
 
 env:
   -_R_CHECK_FORCE_SUGGESTS_=false
 
-warnings_are_errors: true
-sudo: false
-cache: packages
+after_success:
+  - Rscript -e 'covr::codecov()'
