@@ -12,3 +12,16 @@ OMNeoHealth Datasets for Papua New Guinea
 This package contains various datasets collected for the Oxford Maternal and
 Neonatal Health project in Papua New Guinea.
 }
+\author{
+\strong{Maintainer}: Ernest Guevarra \email{ernestgmd@gmail.com} (\href{https://orcid.org/0000-0002-4887-4415}{ORCID})
+
+Authors:
+\itemize{
+  \item Proochista Ariana \email{proochista.ariana@ndm.ox.ac.uk}
+  \item Sophie Janet
+  \item Vivienne Kuma
+  \item Scholastica Zakayo
+}
+
+}
+\keyword{internal}
