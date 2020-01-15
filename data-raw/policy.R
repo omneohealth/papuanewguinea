@@ -43,7 +43,7 @@ alotau_accord_2014[str_detect(alotau_accord_2014, "^[A-Z]+( [A-Z])")][15] <- "DI
 alotau_accord_2014 <- data_frame(linenumber = 1:length(alotau_accord_2014),
                                  text = alotau_accord_2014)
 
-devtools::use_data(alotau_accord_2014, overwrite = TRUE)
+usethis::use_data(alotau_accord_2014, overwrite = TRUE, compress = "xz")
 
 
 ################################################################################
@@ -67,7 +67,7 @@ for(i in 1:length(x)) {
 health_sector_gender_policy_2014 <- data_frame(linenumber = 1:length(health_sector_gender_policy_2014),
                                                text = health_sector_gender_policy_2014)
 
-devtools::use_data(health_sector_gender_policy_2014, overwrite = TRUE)
+usethis::use_data(health_sector_gender_policy_2014, overwrite = TRUE, compress = "xz")
 
 
 ################################################################################
@@ -89,7 +89,7 @@ for(i in 1:length(x)) {
 taskforce_maternal_health_2009 <- data_frame(linenumber = 1:length(taskforce_maternal_health_2009),
                                              text = taskforce_maternal_health_2009)
 
-devtools::use_data(taskforce_maternal_health_2009, overwrite = TRUE)
+usethis::use_data(taskforce_maternal_health_2009, overwrite = TRUE, compress = "xz")
 
 
 ################################################################################
@@ -111,7 +111,7 @@ for(i in 1:length(x)) {
 national_sexual_reproductive_policy <- data_frame(linenumber = 1:length(national_sexual_reproductive_policy),
                                                   text = national_sexual_reproductive_policy)
 
-devtools::use_data(national_sexual_reproductive_policy, overwrite = TRUE)
+usethis::use_data(national_sexual_reproductive_policy, overwrite = TRUE, compress = "xz")
 
 
 ################################################################################
@@ -133,7 +133,7 @@ for(i in 1:length(x)) {
 youth_adolescents_health_policy_2014 <- data_frame(linenumber = 1:length(youth_adolescents_health_policy_2014),
                                                    text = youth_adolescents_health_policy_2014)
 
-devtools::use_data(youth_adolescents_health_policy_2014, overwrite = TRUE)
+usethis::use_data(youth_adolescents_health_policy_2014, overwrite = TRUE, compress = "xz")
 
 
 ################################################################################
@@ -155,7 +155,7 @@ for(i in 1:length(x)) {
 newborn_health_policy_2014 <- data_frame(linenumber = 1:length(newborn_health_policy_2014),
                                          text = newborn_health_policy_2014)
 
-devtools::use_data(newborn_health_policy_2014, overwrite = TRUE)
+usethis::use_data(newborn_health_policy_2014, overwrite = TRUE, compress = "xz")
 
 
 ################################################################################
@@ -177,7 +177,7 @@ for(i in 1:length(x)) {
 png_vision_2015 <- data_frame(linenumber = 1:length(png_vision_2015),
                               text = png_vision_2015)
 
-devtools::use_data(png_vision_2015, overwrite = TRUE)
+usethis::use_data(png_vision_2015, overwrite = TRUE, compress = "xz")
 
 
 

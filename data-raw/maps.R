@@ -12,7 +12,7 @@ country <- readOGR(dsn = "data-raw/maps/png_admbnda_adm0_20180419",
                    layer = "png_admbnda_adm0_20180419",
                    verbose = FALSE)
 
-devtools::use_data(country, overwrite = TRUE)
+usethis::use_data(country, overwrite = TRUE, compress = "xz")
 #
 #
 #
@@ -24,7 +24,7 @@ province$ADM1_PCODE <- str_replace(string = province$ADM1_PCODE,
                                    pattern = "PG",
                                    replacement = "")
 
-devtools::use_data(province, overwrite = TRUE)
+usethis::use_data(province, overwrite = TRUE, compress = "xz")
 #
 #
 #
@@ -36,7 +36,7 @@ district$ADM2_PCODE <- str_replace(string = district$ADM2_PCODE,
                                    pattern = "PG",
                                    replacement = "")
 
-devtools::use_data(district, overwrite = TRUE)
+usethis::use_data(district, overwrite = TRUE, compress = "xz")
 #
 #
 #
@@ -48,7 +48,7 @@ llg$ADM3_PCODE <- str_replace(string = llg$ADM3_PCODE,
                               pattern = "PG",
                               replacement = "")
 
-devtools::use_data(llg, overwrite = TRUE)
+usethis::use_data(llg, overwrite = TRUE, compress = "xz")
 
 
 healthfacility <- read_xlsx("data-raw/png_health_facilities_geocoded.xlsx")
@@ -57,4 +57,4 @@ healthfacility$LLG_Pcode <- str_replace(string = healthfacility$LLG_Pcode, patte
 healthfacility$Dis_Pcode <- str_replace(string = healthfacility$Dis_Pcode , pattern = "PG", replacement = "")
 healthfacility$Prov_Pcode <- str_replace(string = healthfacility$Prov_Pcode, pattern = "PG", replacement = "")
 
-devtools::use_data(healthfacility, overwrite = TRUE)
+usethis::use_data(healthfacility, overwrite = TRUE, compress = "xz")
